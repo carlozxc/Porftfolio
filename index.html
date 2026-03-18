@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlo L. Arañas | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="profile">
+        <div class="profile-image">
+          <img src="profile.png" alt="Carlo Arañas" />
+        </div>
+        <h1>Carlo L. Arañas</h1>
+        <p>BS Information Technology</p>
+      </div>
+
+      <nav class="nav">
+        <a href="#about" class="nav-link active">About Me</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+     <a href="Carlo_Aranas_CV.pdf" class="cv-btn" download>Download CV</a>
+    </aside>
+
+    <main class="main-content">
+      <section class="hero reveal">
+        <p class="hero-subtitle">Hello, I'm</p>
+        <h2 class="hero-title">Carlo L. Arañas</h2>
+        <h3 class="typing-text"><span id="typing"></span></h3>
+      </section>
+
+      <section id="about" class="section reveal">
+        <h2>About Me</h2>
+        <p>
+          I am a detail-oriented IT graduate with hands-on experience in technical support,
+          network setup, system troubleshooting, and software-related assistance. I gained
+          practical experience during my on-the-job training in a hospital IT department,
+          where I supported installations, issue resolution, and internal ticketing workflows.
+        </p>
+        <p>
+          I am passionate about improving system reliability, user satisfaction, and product
+          quality, and I am seeking an entry-level opportunity in IT Support or Quality Assurance.
+        </p>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <h2>Skills</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>IT Support</h3>
+            <p>Troubleshooting hardware/software, printer maintenance, ticketing systems.</p>
+          </div>
+          <div class="card">
+            <h3>Networking</h3>
+            <p>Cat5e/Cat6 cabling, RJ45 crimping, system installation and configuration.</p>
+          </div>
+          <div class="card">
+            <h3>Web Technologies</h3>
+            <p>HTML, CSS, JavaScript for web-based systems testing and frontend projects.</p>
+          </div>
+          <div class="card">
+            <h3>Quality Assurance</h3>
+            <p>Manual testing, bug reporting, documentation, and test case execution.</p>
+          </div>
+          <div class="card">
+            <h3>Software & Tools</h3>
+            <p>SAP Business One (Basic), Canva, general IT support tools and documentation workflows.</p>
+          </div>
+          <div class="card">
+            <h3>Soft Skills</h3>
+            <p>Adaptability, time management, problem-solving, and communication.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>On-the-Job Training – IT Department</h3>
+            <span>Batangas Healthcare Specialist Medical Center | Feb 2025 – May 2025</span>
+            <ul>
+              <li>Assisted in network setup, cabling, and RJ45 crimping for hospital IT systems.</li>
+              <li>Provided hardware and printer troubleshooting to ensure smooth daily operations.</li>
+              <li>Supported Hospital Information System (HIS) software installation and issue resolution.</li>
+              <li>Helped maintain an IT ticketing system for tracking and resolving internal requests.</li>
+              <li>Installed and configured applications and computer systems across departments.</li>
+              <li>Collaborated with IT staff to ensure system reliability, performance, and user satisfaction.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificates" class="section reveal">
+  <h2>Certificates</h2>
+  <div class="cards">
+    <div class="card certificate-card" data-image="images/AWS_Cloud.png">
+      <h3>AWS Academy Cloud Foundations</h3>
+      <p>AWS Academy Graduate</p>
+      <span>November 2024</span>
+      <p class="view-cert">Click to view certificate</p>
+    </div>
+
+    <div class="card certificate-card" data-image="images/Cybersecurity_essentials.png">
+      <h3>CISCO Networking Academy</h3>
+      <p>Completion Certificate Awardee</p>
+      <span>May 2024</span>
+      <p class="view-cert">Click to view certificate</p>
+    </div>
+
+    <div class="card certificate-card" data-image="images/repair-certificate.jpg">
+      <h3>Computer System Repair and Troubleshooting</h3>
+      <p>Completion Certificate Awardee</p>
+      <span>June 2025</span>
+      <p class="view-cert">Click to view certificate</p>
+    </div>
+
+    <div class="card certificate-card" data-image="images/Networking_Basic.png">
+      <h3>Networking Basics</h3>
+      <p>Technical certification</p>
+      <span>February 2026</span>
+      <p class="view-cert">Click to view certificate</p>
+    </div>
+  </div>
+</section>
+
+<div class="certificate-modal" id="certificateModal">
+  <span class="modal-close" id="modalClose">&times;</span>
+  <img id="modalImage" src="" alt="Certificate Preview" />
+</div>
+
+      <section id="contact" class="section reveal">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Phone</h3>
+            <p><a href="tel:+639562495389">+63 956 249 5389</a></p>
+          </div>
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p><a href="mailto:aranas.carlo18@gmail.com">aranas.carlo18@gmail.com</a></p>
+          </div>
+          <div class="contact-card">
+            <h3>Address</h3>
+            <p>022 Mojica St. Poblacion, San Juan, Batangas</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
