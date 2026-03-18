@@ -8,7 +8,7 @@ const sidebar = document.getElementById("sidebar");
 const typingTexts = [
   "Aspiring IT Support Specialist",
   "Technical Support Enthusiast",
-  "Future QA Professional",
+  "Future Network Engineer",
   "Web & Networking Learner"
 ];
 
